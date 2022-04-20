@@ -16,7 +16,7 @@ files:
       offset: 240
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: repeat(2)))
   text: |
     from itertools import repeat
@@ -42,12 +42,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Wed, 20 Apr 2022 16:21:23 UTC
-  expected: |
-    [4.36, 6.09, 3.25, 9.78, 2.16, 8.88, 4.58]
-  actual: |
-    [4.356]
+  message: Congratulations!
+  time: Wed, 20 Apr 2022 16:40:38 UTC
 record: -1

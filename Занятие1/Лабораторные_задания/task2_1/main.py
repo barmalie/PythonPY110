@@ -1,5 +1,5 @@
 def task(camel_case_str: str) -> str:
-    return "".join(...)  # TODO отфильтровать только буквы нижнего регистра
+    return "".join(islower.camel_case_str())
 
 
 if __name__ == "__main__":

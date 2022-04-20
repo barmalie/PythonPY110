@@ -1,5 +1,5 @@
 def list_comprehension(words: list) -> list:
-    return [...]  # TODO
+    return [words for words in list_words.capitalize()]
 
 
 def list_map(words: list) -> list:

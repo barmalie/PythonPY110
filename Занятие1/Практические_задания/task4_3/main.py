@@ -14,7 +14,7 @@ def task():
 
     #return list(map(round, my_floats, [7] * len(my_floats)))  # TODO заменить на repeat
     #return list(map(round, my_floats, [2] * len(my_floats)))
-    #return list(map(round, my_floats, repeat(2)))
-    return list(map(round, my_floats, [3]))# [3] количество знаков после запятой
+    return list(map(round, my_floats, repeat(2)))
+    #return list(map(round, my_floats, [3]))# [3] количество знаков после запятой
 if __name__ == "__main__":
     print(task())

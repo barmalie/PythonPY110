@@ -32,7 +32,7 @@ files:
       offset: 43
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: map(hex, numbers)
   - offset: 168
     length: 103
@@ -43,7 +43,7 @@ files:
       offset: 131
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'zip(numbers, hex_numbers):'
   text: |
     def task(numbers: list):
@@ -60,5 +60,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 20 Apr 2022 16:40:11 UTC
 record: -1

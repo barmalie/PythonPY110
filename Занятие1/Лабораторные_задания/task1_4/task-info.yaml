@@ -10,16 +10,16 @@ files:
   visible: true
   placeholders:
   - offset: 57
-    length: 12
+    length: 43
     placeholder_text: '...]  # TODO'
     initial_state:
       length: 12
       offset: 57
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: word.capitalize() for word in words]
-  - offset: 123
+  - offset: 154
     length: 12
     placeholder_text: '...)  # TODO'
     initial_state:

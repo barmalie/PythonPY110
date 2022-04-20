@@ -8,7 +8,7 @@ def task() -> list:
         0b1010101010  # бинарное представление представление
     ]
 
-    return map
+    return [int(map(task, num_list))]
 
 
 if __name__ == "__main__":

@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 126
+  - offset: 127
     length: 87
     placeholder_text: '[num for num in list_numbers if num < 0])  # TODO заменить
       list comprehension на filter'
@@ -16,7 +16,7 @@ files:
       length: 87
       offset: 126
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: 'filter(lambda x: x < 0, list_numbers))'
   text: |
