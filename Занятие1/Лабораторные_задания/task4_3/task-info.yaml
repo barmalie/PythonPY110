@@ -11,14 +11,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 69
-    length: 42
+  - offset: 106
+    length: 48
     placeholder_text: '...:  # TODO повторить переменную a 4 раза'
     initial_state:
       length: 42
       offset: 69
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: 'repeat(a, 4):'
   text: |
