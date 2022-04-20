@@ -17,7 +17,7 @@ files:
       offset: 154
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: 'lambda x: x > 0, [-2, -1, 0, 1, -3, 2, -3])'
   text: |
     def filter_positive_number(x: int) -> bool:
@@ -31,5 +31,11 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Wed, 20 Apr 2022 16:03:47 UTC
+  expected: |
+    [1, 2]
+  actual: <no output>
 record: -1

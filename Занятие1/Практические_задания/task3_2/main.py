@@ -13,7 +13,7 @@ def list_iterator():
     print(next(list_iter))
 
     try:
-        print(next(list_iter))
+        print(next(list_iter)) # закончился итерируемый обьект.
     except StopIteration:  # как только элементы в последовательности закончатся будет вызвано исключение StopIteration
         print_exc()
 
