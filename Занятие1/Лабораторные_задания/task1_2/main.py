@@ -7,7 +7,7 @@ def task() -> int:
         "Cyan"
     ]
 
-    return [len(map(task, list_words))]
+    return max(len(map(task, list_words)))
 
 
 if __name__ == "__main__":
