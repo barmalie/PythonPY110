@@ -19,7 +19,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 343
+  - offset: 358
     length: 75
     placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
@@ -29,7 +29,7 @@ files:
     selected: true
     status: Unchecked
     encrypted_possible_answer: next(iterator_numbers))
-  - offset: 552
+  - offset: 567
     length: 70
     placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:

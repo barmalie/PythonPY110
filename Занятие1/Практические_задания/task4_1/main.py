@@ -1,4 +1,5 @@
 from itertools import count
+import  random
 
 
 def task():
