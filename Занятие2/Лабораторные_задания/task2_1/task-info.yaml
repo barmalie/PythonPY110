@@ -26,10 +26,10 @@ files:
       offset: 68
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: yield num
-  - offset: 142
-    length: 74
+  - offset: 121
+    length: 144
     placeholder_text: '# TODO с помощью yield вернуть оставшиеся степени двойки до
       бесконечности'
     initial_state:
@@ -37,7 +37,7 @@ files:
       offset: 147
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: yield 2 ** i
   text: |
     from itertools import count
@@ -60,22 +60,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Wed, 27 Apr 2022 16:57:58 UTC
-  expected: |
-    1
-    2
-    4
-    8
-    16
-    32
-    64
-    128
-    256
-    512
-    1024
-  actual: |
-    1
+  message: Congratulations!
+  time: Wed, 27 Apr 2022 17:09:27 UTC
 record: -1

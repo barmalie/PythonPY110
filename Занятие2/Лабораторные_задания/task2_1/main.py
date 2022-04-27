@@ -6,7 +6,9 @@ def task():
     yield num
 
     for num in count(1, 1):
-        yield (i ** 2 for i in num) # TODO с помощью yield вернуть оставшиеся степени двойки до бесконечности
+        #yield num ** 2
+        yield 2 ** num # num  использует как степень
+        # TODO с помощью yield вернуть оставшиеся степени двойки до бесконечности
 
 
 if __name__ == "__main__":
