@@ -20,7 +20,7 @@ files:
       offset: 28
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       n = 0
           while True:
@@ -40,15 +40,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Wed, 27 Apr 2022 17:32:40 UTC
-  expected: |
-    1
-    10
-    100
-    1000
-    10000
-  actual: <no output>
+  message: Congratulations!
+  time: Wed, 27 Apr 2022 17:39:18 UTC
 record: -1

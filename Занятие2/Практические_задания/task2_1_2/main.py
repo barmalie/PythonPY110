@@ -21,9 +21,13 @@ if __name__ == "__main__":
     print(next(my_second_gen))
     print(next(my_second_gen))
 
+
     try:
         print(next(my_second_gen))
 
     except StopIteration:
+
         print("Генератор закончился")
         print_exc()
+
+        # Нужно чтобы вывелось 12

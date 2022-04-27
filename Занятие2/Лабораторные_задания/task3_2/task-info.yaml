@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 27
-    length: 44
+    length: 30
     placeholder_text: '# TODO записать обертку для исходной функции'
     initial_state:
       length: 44
       offset: 27
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       def wrapper(str_arg):
               if len(str_arg) < 10:
@@ -19,7 +19,7 @@ files:
 
               result = fn(str_arg)
               return result
-  - offset: 94
+  - offset: 80
     length: 29
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
@@ -27,7 +27,7 @@ files:
       offset: 94
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '@min_len_check'
   text: |
     def min_len_check(fn):
@@ -49,6 +49,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

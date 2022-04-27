@@ -1,5 +1,6 @@
 def min_len_check(fn):
-    # TODO записать обертку для исходной функции
+    def wrapper (*args, **kwargs)
+
 
     return wrapper
 
