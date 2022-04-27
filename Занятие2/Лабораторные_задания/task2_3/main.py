@@ -1,11 +1,10 @@
+import itertools
 def pow_gen(base: int):
-    def count(*args, step: float = 1):
-        counter = start_number
+        n = 0
         while True:
-            yield counter
-            counter += step
+            yield base**n
+            n += 1
 
-    pow_gen = count(100, 10)
 
 
 if __name__ == "__main__":
