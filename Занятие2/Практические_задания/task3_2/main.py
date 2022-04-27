@@ -7,16 +7,16 @@ def time_decorator(fn):
     def wrapper(*args, **kwargs):
         print("Этот код будет выполняться перед каждым вызовом функции")
 
-        # TODO зафиксировать время до начала выполнения функции
+        t1 = time.time()
         result = fn(*args, **kwargs)
-        # TODO зафиксировать время после выполнения
+        t2 = time.time()
 
         print("Этот код будет выполняться после каждого вызова функции")
-        return result
+        return (t2-t1), result
     return wrapper
 
 
-# TODO задекорировать функцию
+@time_decorator
 def pow_(a, n):
     return pow(a, n)
 
