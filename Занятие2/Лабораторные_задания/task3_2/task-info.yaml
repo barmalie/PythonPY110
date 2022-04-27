@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 27
-    length: 30
+  - offset: 119
+    length: 86
     placeholder_text: '# TODO записать обертку для исходной функции'
     initial_state:
       length: 44
@@ -19,14 +19,14 @@ files:
 
               result = fn(str_arg)
               return result
-  - offset: 80
-    length: 29
+  - offset: 228
+    length: 43
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
       offset: 94
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: '@min_len_check'
   text: |
@@ -50,5 +50,7 @@ files:
   visible: false
   learner_created: false
 status: Solved
+feedback:
+  time: Wed, 27 Apr 2022 17:59:57 UTC
 record: -1
 post_submission_on_open: true
