@@ -7,7 +7,7 @@ def task() -> int:
         "Cyan"
     ]
 
-    return max(...)  # TODO записать выражение-генератор
+    return len(max(i for i in list_words))
 
 
 if __name__ == "__main__":

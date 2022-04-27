@@ -8,15 +8,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 153
-    length: 41
+  - offset: 156
+    length: 24
     placeholder_text: '...)  # TODO записать выражение-генератор'
     initial_state:
       length: 41
       offset: 153
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Failed
     encrypted_possible_answer: len(word) for word in list_words)
   text: |
     def task() -> int:
@@ -37,5 +37,12 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Wed, 27 Apr 2022 16:58:10 UTC
+  expected: |
+    9
+  actual: |
+    Turquoise
 record: -1

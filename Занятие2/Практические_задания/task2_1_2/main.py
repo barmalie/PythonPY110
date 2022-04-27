@@ -9,8 +9,7 @@ def second_gen(input_):
     input_ += 1
 
     return input_
-    result =return input_
-    print( input_)
+    print(input_())
 
     yield input_  # данный yield никогда не будет выполнен
     input_ += 1
@@ -24,6 +23,7 @@ if __name__ == "__main__":
 
     try:
         print(next(my_second_gen))
+
     except StopIteration:
         print("Генератор закончился")
         print_exc()
