@@ -16,7 +16,7 @@ files:
       offset: 153
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: len(word) for word in list_words)
   text: |
     def task() -> int:
@@ -37,12 +37,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Wed, 27 Apr 2022 16:58:10 UTC
-  expected: |
-    9
-  actual: |
-    Turquoise
+  message: Congratulations!
+  time: Wed, 27 Apr 2022 17:17:06 UTC
 record: -1
