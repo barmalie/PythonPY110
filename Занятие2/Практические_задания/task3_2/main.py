@@ -9,6 +9,7 @@ def time_decorator(fn):
 
         t1 = time.time()
         result = fn(*args, **kwargs)
+        #ime.sleep(3)
         t2 = time.time()
 
         print("Этот код будет выполняться после каждого вызова функции")
@@ -16,8 +17,9 @@ def time_decorator(fn):
     return wrapper
 
 
-@time_decorator
+@time_decorator # pow_ = time_decorator(pow_)
 def pow_(a, n):
+    #print(pow(a,n))
     return pow(a, n)
 
 

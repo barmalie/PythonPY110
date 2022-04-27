@@ -13,7 +13,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: t0 = time.time()
-  - offset: 284
+  - offset: 306
     length: 16
     placeholder_text: '# TODO зафиксировать время после выполнения'
     initial_state:
@@ -25,8 +25,8 @@ files:
     encrypted_possible_answer: |-
       dt = time.time() - t0
               print(f"Функция выполнялась {dt}")
-  - offset: 427
-    length: 15
+  - offset: 449
+    length: 45
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
       length: 29
@@ -73,6 +73,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Wed, 27 Apr 2022 16:03:16 UTC
+  time: Wed, 27 Apr 2022 16:15:11 UTC
 record: -1
 post_submission_on_open: true
