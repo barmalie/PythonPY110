@@ -14,10 +14,10 @@ def task():
         "TURQUOISE",
         "cYAN"
     ]
-
+    list = list_words.lower()
     print(list_comprehension(list_words))
     print(list_map(list_words))
-
+    print(list)
 
 if __name__ == "__main__":
     task()
