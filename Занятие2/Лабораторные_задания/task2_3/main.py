@@ -1,5 +1,11 @@
 def pow_gen(base: int):
-    ...  # TODO записать функцию-генератор
+    def count(*args, step: float = 1):
+        counter = start_number
+        while True:
+            yield counter
+            counter += step
+
+    pow_gen = count(100, 10)
 
 
 if __name__ == "__main__":
