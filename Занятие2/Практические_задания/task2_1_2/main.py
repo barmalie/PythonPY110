@@ -24,6 +24,7 @@ if __name__ == "__main__":
 
     try:
         print(next(my_second_gen))
+        print(yield.value) # ошибка  это словар с ключом 12
 
     except StopIteration:
 

@@ -3,7 +3,7 @@ def min_len_check(fn: str):
         if len(str(fn)) < len(str(10)):
             raise ValueError("Строка слишком короткая")
 
-            def wrapper():
+            def wrapper(str_arg):
                 result = fn()
                 return result
 
